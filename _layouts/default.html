@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f0e3; }
+        header, footer { background-color: #d4a373; color: white; padding: 20px; }
+        section { margin: 20px; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .btn { background-color: #d4a373; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <header>Bienvenue à notre mariage !</header>
+    {{ content }}
+    <footer>Nous avons hâte de célébrer avec vous !</footer>
+</body>
+</html>
