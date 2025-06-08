@@ -634,6 +634,12 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+	
+	.icon-svg {
+		width: 60%;
+		height: 60%;
+		object-fit: contain;
+		}
 
 /* Image */
 
