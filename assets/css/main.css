@@ -1675,3 +1675,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+@media (max-width: 768px) {
+	#bg-video {
+		object-position: 16% center;
+	}
+	}
