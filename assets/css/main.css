@@ -638,10 +638,16 @@ input, select, textarea {
 	.icon-svg {
 		width: 60%;
 		height: 60%;
-		object-fit: contain;
+		object-fit: fill;
 		}
 
 /* Image */
+	
+	.logement {
+		object-fit: cover;
+		height: 400px;
+		width: auto;
+	}
 
 	.image {
 		border-radius: 4px;
@@ -1312,6 +1318,7 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			align-items: center;
 		}
 
 			#header .logo .icon:before {
